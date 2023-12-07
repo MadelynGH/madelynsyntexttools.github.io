@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Find and Replace | Madelynsyn Text Tools</title>
+
+        <link rel="stylesheet" type="text/css" href="/styles/find-and-replace.css">
+    </head>
+
+    <body>
+        <div id="content">
+            <textarea rows="20" id="paragraph" class="input"></textarea>
+
+            <div class="break"></div>
+
+            <div class="label-input-div">
+                <label for="case-sensitive-checkbox" class="label">case sensitive</label>
+                <input type="checkbox" id="case-sensitive-checkbox">
+            </div>
+
+            <div class="break"></div>
+
+            <div class="label-input-div">
+                <label for="text-to-find" class="label">find </label>
+                <input type="text" id="text-to-find" class="input">
+            </div>
+
+            <div class="label-input-div">
+                <label for="text-to-replace" class="label">replace with </label>
+                <input type="text" id="text-to-replace" class="input">
+            </div>
+
+            <button id="replace-button">do it!</button>
+        </div>
+
+        <script src="/scripts/find-and-replace.js"></script>
+        <script src="/scripts/header.js"></script>
+    </body>
+</html>
